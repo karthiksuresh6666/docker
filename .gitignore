@@ -1,5 +1,12 @@
 HELP.md
 target/
+docker
+testdb.mv.db
+testdb.trace.db
+mvnw.cmd
+mvnw
+.mvn/wrapper
+
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
