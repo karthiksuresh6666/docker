@@ -1,0 +1,9 @@
+version: "1.0"
+
+services:
+  gemini-opal:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - 8097:8097

@@ -1,0 +1,9 @@
+docker build . -t opal
+
+docker run -d --name opal -p 8097:8097 opal
+
+docker ps
+
+docker images
+
+dokcer image rm {}
