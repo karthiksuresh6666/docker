@@ -1,0 +1,9 @@
+2024-02-11 18:41:20.160493+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "EMPLOYEE" not found (this database is empty); SQL statement:
+select e1_0.id,e1_0.dept,e1_0.name,e1_0.salary from employee e1_0 where e1_0.id=? [42104-224]
+2024-02-11 18:45:18.192242+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-224]
+2024-02-11 18:46:16.118087+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-224]
+2024-02-11 18:50:17.736698+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-224]
